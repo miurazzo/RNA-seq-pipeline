@@ -23,8 +23,9 @@ raw reads from Illumina sequencer. The dataset is a RNA-seq study in *Drosophila
     * untreated PS genes
    
 The biological samples are varied between single-end and paired-end, by having or not technical replicates and by read length. Below, a breaf description of the biological samples used: 
+![Captura de tela de 2023-04-13 11-27-59](https://user-images.githubusercontent.com/101593641/231793383-2d11d727-39cf-4e1f-9b33-c7f3301e86c7.png)
 
-![pca](https://user-images.githubusercontent.com/101593641/231793122-3be56ca5-d1ac-466b-942d-ca09597eb22e.png)
+
 
 At the end of this pipeline/tutorial, we will have identified the most differentially expressed genes between Treated (PS silenced)  and Untreated condition:
 
@@ -40,7 +41,8 @@ We map the processed reads with STAR aligner:
 And visualize the aligned reads to the reference genome, checking for splice junctions with IGV:
 ![igv](https://user-images.githubusercontent.com/101593641/231789255-afe47cd5-f516-479c-b215-f35f49d496fc.png)
 
-
+If we visualize a Principal Component Analysis, it is visible that samples that have the same characteristics tend to be clustered together:
+![pca](https://user-images.githubusercontent.com/101593641/231793122-3be56ca5-d1ac-466b-942d-ca09597eb22e.png)
 
 References:
 This pipeline is based on [Galaxy training tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html)
