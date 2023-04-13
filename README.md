@@ -35,15 +35,20 @@ At the end of this pipeline/tutorial, we will have identified the most different
 ![volcano](https://user-images.githubusercontent.com/101593641/231786598-bd4fe139-5b6f-40c1-9b7b-cd55a7c2b33e.png)
 
 First, we process the reads and remove adapters and bad quality reads. Then, checking the overall quality of each biological sample we will achieve the following result:
+
 ![read_lengths](https://user-images.githubusercontent.com/101593641/231788577-651a75c5-5019-4ad7-a631-c5a0cf0027ad.png)
 
+
 We map the processed reads with STAR aligner: 
+
 ![star](https://user-images.githubusercontent.com/101593641/231788971-5369bb73-4f06-4bcd-894a-9bc827a3d252.png)
 
 And visualize the aligned reads to the reference genome, checking for splice junctions with IGV:
+
 ![igv](https://user-images.githubusercontent.com/101593641/231789255-afe47cd5-f516-479c-b215-f35f49d496fc.png)
 
 If we visualize a Principal Component Analysis, it is visible that samples that have the same characteristics tend to be clustered together:
+
 ![pca](https://user-images.githubusercontent.com/101593641/231793122-3be56ca5-d1ac-466b-942d-ca09597eb22e.png)
 
 References:
