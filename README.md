@@ -23,6 +23,8 @@ raw reads from Illumina sequencer. The dataset is a RNA-seq study in *Drosophila
     * untreated PS genes
    
 The biological samples are varied between single-end and paired-end, by having or not technical replicates and by read length. Below, a breaf description of the biological samples used: 
+
+
 ![Captura de tela de 2023-04-13 11-27-59](https://user-images.githubusercontent.com/101593641/231793383-2d11d727-39cf-4e1f-9b33-c7f3301e86c7.png)
 
 
